@@ -16,9 +16,11 @@
 !*.cls
 
 ## Codigo
+!*.jl
 !*.py
 !*.R
 !*.c
+!*.sql
 
 ## Texto
 !*.md
