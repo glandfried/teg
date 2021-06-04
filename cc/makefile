@@ -1,4 +1,6 @@
 all: gamesdb.sql.dump
+	sed -i 's/glandfried/landfried/g' gamesdb.sql.dump
+	psql conquerclub < gamesdb.sql.dump;
 
 gamesdb.sql.dump: xaa
 	gunzip gamesdb.gz
